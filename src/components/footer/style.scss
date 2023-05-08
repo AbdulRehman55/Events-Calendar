@@ -1,0 +1,91 @@
+@import '../../utils/styles/theme_colors';
+.footer-wrapper {
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 16px;
+  font-family: Lato, serif;
+  font-weight: 300;
+  line-height: 1.42857143;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  border-color: #ddd;
+  hr {
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+  .panel {
+    padding: 10px 15px;
+  }
+  #regions {
+    text-align: center;
+    li {
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+      font-size: 12px;
+    }
+    a {
+      color: $primary-font-color;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
+  .list-inline {
+    padding-left: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .region-all {
+    background-color: #000;
+  }
+  .region-africa {
+    background-color: #f44336;
+  }
+  .region-asia {
+    background-color: #ba68c8;
+  }
+  .region-europe {
+    background-color: #ff9800;
+  }
+  .region-north-america {
+    background-color: #4caf50;
+  }
+  .region-oceania {
+    background-color: #00bcd4;
+  }
+  .region-south-america {
+    background-color: #228b22;
+  }
+  .region-global {
+    background-color: #e91e63;
+  }
+  [class^="region-"] {
+    color: $primary-font-color;
+    border-radius: 3px;
+  }
+  .footer-text {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-family: Lato, serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+    a {
+      color: $green-font-color;
+      text-decoration: none;
+      background-color: transparent;
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+}

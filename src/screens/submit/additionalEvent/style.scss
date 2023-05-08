@@ -1,0 +1,52 @@
+.event-info-container {
+  .text-center {
+    margin: 15px 0;
+    cursor: default;
+    font-family: Muli, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+  }
+  .description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Lato, serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    b {
+      font-family: inherit;
+    }
+  }
+  .subtext {
+    font-size: 0.85em;
+    color: #888;
+    font-family: Lato, serif;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  .location-wrapper {
+    text-align: center;
+  }
+  .captcha-wrapper {
+    padding-top: 16px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  strong {
+    font-family: Lato, serif;
+    font-size: 16px;
+  }
+  p {
+    font-family: Lato, serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  .map {
+    height: 300px;
+    width: 100%;
+  }
+}

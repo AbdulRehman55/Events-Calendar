@@ -1,0 +1,58 @@
+@import "../../utils/styles/theme_colors";
+
+/////////////////////////////////
+//////////* HELP PAGE *//////////
+/////////////////////////////////
+
+#help-page{
+  @include content-wrapper;
+  background: $white-bg-color;
+  border: 1px solid $light-grey-border-color;
+  margin-bottom: 40px;
+  border-radius: 0 0 4px 4px;
+  p{
+    font-size: 16px;
+    font-family: Lato,serif;
+    font-weight: 300;
+    color: $secondary-text-color;
+    padding-bottom: 20px;
+    span{
+      font-weight: 700;
+      font-family: Lato,serif;
+    }
+  }
+  ul{
+    padding-bottom: 20px;
+    margin-left: 40px;
+    li{
+      font-size: 13px;
+      font-family: Lato,serif;
+      font-weight: 300;
+      line-height: 20px;
+    }
+  }
+  h1{
+    font-family: Muli,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+  }
+  h2{
+    font-weight: 700;
+    font-family: Muli,Arial,sans-serif;
+    color: $green-color;
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+  .MuiBox-root.css-0{
+    margin-bottom: 20px;
+  }
+  a{
+    color: $green-color;
+    text-decoration: none;
+    :hover{
+      cursor: pointer;
+    }
+  }
+}

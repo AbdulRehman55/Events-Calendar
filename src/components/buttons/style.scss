@@ -1,0 +1,58 @@
+@import "../../utils/styles/theme_colors";
+
+.login-btn {
+  font-family: Lato, serif;
+  margin-bottom: 25px;
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3333;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.primary {
+  background-color: #ff1493;
+  border-color: #ff1493;
+}
+.success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  &:hover {
+    background-color: #449d44;
+    border-color: #398439;
+  }
+}
+
+.btn {
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  &.lg {
+    font-size: 28px;
+  }
+  &.md{
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 6px;
+  }
+}
